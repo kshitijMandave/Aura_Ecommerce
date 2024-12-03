@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  display: flex;
+  height: 75px;
+  background-color: #8da9c4;
+  padding: 0.5rem 80px;
+}
+
+#header section#logo {
+  text-align: center;
+}
+
+#header section#logo p {
+  font-size: 12px;
+  color: white;
+}
+
+#header section#links {
+  width: 50%;
+}
+#header section#links a {
+  text-decoration: none;
+  color: #0b2545;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+section#logo {
+  width: 25%;
+}
+
+section#logo a img {
+  height: 50px;
+}
+
+#header section#icon-button {
+  width: 25%;
+}
+
+/* class for center items */
+.center-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* class for primary color */
+.primary-clr {
+  color: #0b2545;
+}
+
+#header section#icon-button a i {
+  color: #0b2545;
+}
+
+#header section#icon-button #login-btn {
+  padding: 5px 10px;
+  background-color: #0b2545;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+#aura-welcome-section {
+  padding: 200px;
+  text-align: center;
+}
+
+#aura-welcome-section h2 {
+  font-size: 60px;
+  padding-bottom: 25px;
+}
+
+#aura-welcome-section p {
+  font-size: 20px;
+  padding-bottom: 25px;
+  font-weight: 500;
+}
+
+#aura-welcome-section button {
+  padding: 15px 22px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0b2545;
+  color: white;
+  cursor: pointer;
+}
