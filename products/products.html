@@ -4,14 +4,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+
+    <!-- for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="./products.css">
     <title> Products | Aura</title>
 </head>
 
 <body>
+    <header id="header">
+        <section id="logo" class=".center-items">
+            <a href=""><img src="./img/Aura logo.png" alt=""></a>
+            <p>Elevate Your Shopping Experience</p>
+        </section>
+        <section id="links" class="center-items">
+            <a href="">Home</a>
+            <a href="">Products</a>
+            <a href="">Profile</a>
+            <a href="">Contact Us</a>
+        </section>
+        <section id="icon-button" class="center-items">
+            <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href=""><i class="fa-solid fa-heart"></i></a>
+            <button id="login-btn">Log In</button>
+        </section>
+    </header>
 
-
-
+    <main>
+        <section class="welcome-section">
+            <div class="container">
+                <h2>Welcome to, Aura!</h2>
+                <p>where every click unveils a world of elegance, style, and endless possibilities. Dive into a shopping
+                    experience crafted just for you.</p>
+            </div>
+        </section>
+        <section class="filter-sec">
+            <div class="container">
+                <div>
+                    <input type="radio" name="category">
+                    <label for="">All</label>
+                </div>
+                <div>
+                    <input type="radio" name="category">
+                    <label forlo="">Electronics</label>
+                </div>
+                <div>
+                    <input type="radio" name="category">
+                    <label for="">Jwellery</label>
+                </div>
+                <div>
+                    <input type="radio" name="category">
+                    <label for="">Men's Clothings</label>
+                </div>
+                <div>
+                    <input type="radio" name="category">
+                    <label for="">Women's Clothings</label>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="products-container">
+                <div class="products-card">
+                    <div class="products-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1572295293833-2d7556b54324?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+                    </div>
+                    <div class="products-card-content">
+                        <div style="display: flex; justify-content: space-between;">
+                            <h4>Puma M3145</h4>
+                            <i title="Add to wishlist" style="font-size: 20px; cursor: pointer;"
+                                class="fa-regular fa-heart"></i>
+                        </div>
+                        <h3><span>₹ </span>6000</h3>
+                        <ul>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </ul>
+                        <div class="product-btn">
+                            <button>Product Details</button>
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

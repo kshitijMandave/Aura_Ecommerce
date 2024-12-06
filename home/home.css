@@ -66,9 +66,23 @@ section#logo a img {
   border: none;
 }
 
+.hero {
+  background-image: url(./img/model-img.jpg);
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  padding: 3rem;
+  background-position: 0 -60px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  align-content: center;
+}
+
 #aura-welcome-section {
-  padding: 200px;
+  padding: 30px;
   text-align: center;
+  width: 500px;
 }
 
 #aura-welcome-section h2 {
