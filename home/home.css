@@ -97,10 +97,20 @@ section#logo a img {
 }
 
 #aura-welcome-section button {
-  padding: 15px 22px;
+  padding: 12px 22px;
   border: none;
   border-radius: 10px;
   background-color: #0b2545;
+  border: 2px solid #0b2545;
   color: white;
+  cursor: pointer;
+}
+#aura-welcome-section button:hover {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #0b2545;
+  color: #0b2545;
   cursor: pointer;
 }
