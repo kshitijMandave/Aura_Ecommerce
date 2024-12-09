@@ -87,7 +87,7 @@ section#logo a img {
 /* header End */
 
 section.profile {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 450px;
   margin-top: 25px;
 }
@@ -102,17 +102,31 @@ section.profile {
 }
 
 .left {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 30%;
-  height: 400px;
+  /* height: 400px; */
   text-align: center;
   align-content: center;
 }
 
 .right {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 68%;
-  height: 400px;
+  /* height: 400px; */
+}
+
+.right button {
+  padding: 7px 150px;
+  cursor: pointer;
+  background-color: #8da9c4;
+  border: 2px solid #8da9c4;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+}
+
+.right button:hover {
+  background-color: #0b2545;
 }
 /* .right dl {
   padding: 25px;
