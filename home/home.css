@@ -23,11 +23,29 @@
 #header section#links {
   width: 50%;
 }
+
 #header section#links a {
   text-decoration: none;
   color: #0b2545;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+#header section#links a:hover,
+#header section#links a:active {
+  color: #134074;
+  transition: 0.3s ease;
+}
+
+#header section#links a.active::after,
+#header section#links a:hover::after {
+  position: absolute;
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: #134074;
+  bottom: -4px;
+  left: 20px;
 }
 
 section#logo {
