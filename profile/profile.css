@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  display: flex;
+  height: 75px;
+  background-color: #8da9c4;
+  padding: 0.5rem 80px;
+}
+
+#header section#logo {
+  text-align: center;
+}
+
+#header section#logo p {
+  font-size: 12px;
+  color: white;
+}
+
+#header section#links {
+  width: 50%;
+}
+
+#header section#links a {
+  text-decoration: none;
+  color: #0b2545;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#header section#links a:hover,
+#header section#links a:active {
+  color: #134074;
+  transition: 0.3s ease;
+}
+
+/* #header section#links a.active::after,
+#header section#links a:hover::after {
+  position: absolute;
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: #134074;
+  bottom: -4px;
+  left: 20px;
+} */
+
+section#logo {
+  width: 25%;
+}
+
+section#logo a img {
+  height: 50px;
+}
+
+#header section#icon-button {
+  width: 25%;
+}
+
+/* class for center items */
+.center-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* class for primary color */
+.primary-clr {
+  color: #0b2545;
+}
+
+#header section#icon-button a i {
+  color: #0b2545;
+}
+
+#header section#icon-button #login-btn {
+  padding: 5px 10px;
+  background-color: #0b2545;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+/* header End */
+
+section.profile {
+  border: 1px solid black;
+  height: 450px;
+  margin-top: 25px;
+}
+
+.profile-container {
+  /* border: 1px solid black; */
+  /* height: 450px; */
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left {
+  border: 1px solid black;
+  width: 30%;
+  height: 400px;
+  text-align: center;
+  align-content: center;
+}
+
+.right {
+  border: 1px solid black;
+  width: 68%;
+  height: 400px;
+}
+/* .right dl {
+  padding: 25px;
+} */
