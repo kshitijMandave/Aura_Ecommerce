@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  display: flex;
+  height: 75px;
+  background-color: #8da9c4;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  padding: 0.5rem 80px;
+  position: sticky;
+  top: 0;
+}
+
+#header section#logo {
+  text-align: center;
+}
+
+#header section#logo p {
+  font-size: 12px;
+  color: white;
+}
+
+#header section#links {
+  width: 50%;
+}
+
+#header section#links a {
+  text-decoration: none;
+  color: #0b2545;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#header section#links a:hover,
+#header section#links a:active {
+  color: #134074;
+  transition: 0.3s ease;
+}
+
+section#logo {
+  width: 25%;
+}
+
+section#logo a img {
+  height: 50px;
+}
+
+#header section#icon-button {
+  width: 25%;
+}
+
+/* class for center items */
+.center-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* class for primary color */
+.primary-clr {
+  color: #0b2545;
+}
+
+#header section#icon-button a i {
+  color: #0b2545;
+}
+
+#header section#icon-button #login-btn {
+  padding: 5px 10px;
+  background-color: #0b2545;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+/* cart products */
+
+main {
+  display: grid;
+}
+
+.cart-container {
+}
