@@ -79,5 +79,7 @@ section#logo a img {
 /* cart products */
 
 main {
-  display: grid;
+  border: 1px solid black;
+  height: 800px;
+  display: flex;
 }
