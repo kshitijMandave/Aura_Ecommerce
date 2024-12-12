@@ -80,12 +80,12 @@ section#logo a img {
 
 main {
   /* border: 1px solid black; */
-  width: 83%;
-  margin: 5px auto;
+  width: 90%;
+  margin: 10px auto;
   height: 800px;
   display: flex;
   grid-template-columns: 1fr 1fr;
-  padding: 15px;
+  /* padding: 15px; */
 }
 
 main .cart-products {
@@ -96,7 +96,7 @@ main .cart-products {
   align-items: center;
 }
 
-main .cart-ammount {
+section.cart-ammount .cart-ammount-container {
   /* margin: 15px; */
   /* border: 1px solid black; */
   width: 100%;
@@ -128,14 +128,9 @@ main .cart-ammount {
   padding: 10px;
 }
 
-.cart-ammount .details-container p {
+section.cart-ammount .cart-ammount-container .details-container p {
   font-size: 14px;
   line-height: 25px;
-}
-
-.cart-ammount .details-container p span a {
-  text-decoration: none;
-  color: #134074;
 }
 
 .cart-ammount .price-container p {
@@ -143,23 +138,17 @@ main .cart-ammount {
   line-height: 25px;
 }
 
-.cart-ammount .price-container p a {
-  text-decoration: none;
-  color: #134074;
-}
-
-section > p {
+section.cart-ammount > p {
   margin-top: 15px;
 }
 
-/* section div.btn {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-} */
+section.cart-ammount .btn-wrapper {
+  width: 110%;
+  text-align: center;
+}
 
-section div.btn button {
-  margin: 15px auto;
+section.cart-ammount .btn-wrapper button {
+  margin-top: 15px;
   padding: 7px 100px;
   background-color: #8da9c4;
   color: white;
@@ -168,7 +157,7 @@ section div.btn button {
   border-radius: 5px;
 }
 
-section div.btn button:hover {
+section.cart-ammount .btn-wrapper button:hover {
   background-color: #0b2545;
   border: 1px solid #0b2545;
   border-radius: 5px;
