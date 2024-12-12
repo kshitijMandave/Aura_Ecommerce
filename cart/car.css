@@ -133,20 +133,33 @@ main .cart-ammount {
   line-height: 25px;
 }
 
+.cart-ammount .details-container p span a {
+  text-decoration: none;
+  color: #134074;
+}
+
 .cart-ammount .price-container p {
   font-size: 14px;
   line-height: 25px;
 }
 
+.cart-ammount .price-container p a {
+  text-decoration: none;
+  color: #134074;
+}
+
 section > p {
   margin-top: 15px;
 }
-section div.btn {
-  text-align: center;
-}
+
+/* section div.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+} */
 
 section div.btn button {
-  margin-top: 15px;
+  margin: 15px auto;
   padding: 7px 100px;
   background-color: #8da9c4;
   color: white;
