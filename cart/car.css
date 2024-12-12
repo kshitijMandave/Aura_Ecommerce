@@ -80,6 +80,8 @@ section#logo a img {
 
 main {
   /* border: 1px solid black; */
+  width: 83%;
+  margin: 5px auto;
   height: 800px;
   display: flex;
   grid-template-columns: 1fr 1fr;
