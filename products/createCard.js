@@ -1,24 +1,3 @@
-function getAllProducts() {
-  //   alert("working");
-
-  let promiseObj = fetch("https://fakestoreapi.com/products");
-  // predefined function created by browser
-
-  promiseObj
-    .then((res) => {
-      return res.json(); // it will return one promise
-    })
-    // N, We are handling that promise here
-    .then((data) => {
-      console.log(data);
-    })
-    .catch((error) => {
-      alert("Something went wrong while fetching the data");
-    });
-}
-
-// ****to create Card
-
 function createCard() {
   // Create the main card container
   let divCard = document.createElement("div");
@@ -77,11 +56,9 @@ function createCard() {
   // Create buttons container
   let btnContainer = document.createElement("div");
   btnContainer.className = "product-btn";
-  // btnContainer.style.margin = "10px";
 
   let btn1 = document.createElement("button");
   btn1.innerText = "Product Details";
-  btn1.style.marginRight = "10px";
 
   let btn2 = document.createElement("button");
   btn2.innerText = "Add to Cart";
