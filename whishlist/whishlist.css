@@ -86,3 +86,22 @@ h3 {
   font-size: 50px;
   margin-bottom: 25px;
 }
+
+main {
+  /* border: 1px solid black; */
+  width: 90%;
+  margin: 10px auto;
+  height: 800px;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  /* padding: 15px; */
+}
+
+main .cart-products {
+  /* border: 1px solid black; */
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  /* align-items: center; */
+}
