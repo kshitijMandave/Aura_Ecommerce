@@ -75,3 +75,14 @@ section#logo a img {
   cursor: pointer;
   border: none;
 }
+
+.wishlish-card .wishlish-container {
+  padding: 50px;
+  text-align: center;
+}
+
+.wishlish-card .wishlish-container i,
+h3 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
