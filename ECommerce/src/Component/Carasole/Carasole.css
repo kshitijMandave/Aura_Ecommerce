@@ -1,0 +1,161 @@
+.welcome-section {
+  width: 98%;
+  height: 300px;
+  border: 1px solid black;
+  margin: 10px auto;
+}
+
+.welcome-section .container {
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  /* width: 800px; */
+  color: white;
+}
+
+.welcome-section .container h2 {
+  font-size: 40px;
+}
+
+.welcome-section .container p {
+  margin: 25px auto;
+  width: 800px;
+  font-size: 28px;
+}
+
+.filter-sec {
+  width: 1225px;
+  height: 50px;
+  /* border: 1px solid black; */
+  background-color: #8da9c4;
+  margin: 25px auto;
+}
+
+.filter-sec .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.products {
+  width: 1225px;
+  height: 800px;
+  /* border: 1px solid black; */
+  margin: 25px auto;
+}
+
+.products .products-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.products-card {
+  width: 275px;
+  height: 450px;
+  /* height: 300px; */
+  background-color: white;
+  align-content: center;
+  box-shadow: 0 0 5px #8da9c4;
+  padding: 15px 5px;
+  /* margin: 5px; */
+}
+
+.products-card .card-container {
+  /* border: 1px solid black; */
+  width: "280px";
+  height: "90%";
+  margin: "auto";
+}
+
+.products-card .products-img-wrapper {
+  text-align: center;
+  height: 40%;
+  /* border: 1px solid black; */
+}
+
+.products-card .products-img-wrapper img {
+  width: 90%;
+  height: 300px;
+}
+
+.products-card .products-card-content {
+  /* border: 1px solid black; */
+  width: 94%;
+  height: 40%;
+  margin: 5px auto;
+  /* padding: 15px; */
+}
+
+.products-card-content ul i {
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.products-card-content ul i:hover {
+  font-size: 12px;
+  color: #ff5722;
+  content: "fa-solid fa-heart";
+}
+
+/* .products-card-content div {
+    border: 1px solid black;
+    width: 94%;
+    height: 30%;
+  } */
+
+.products-card-content div button {
+  margin-top: 10px;
+  background-color: #8da9c4;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.products-card-content div button:hover {
+  background-color: #0b2545;
+  color: white;
+}
+
+.welcome-section {
+  overflow: hidden;
+  position: relative;
+}
+.welcome-section::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  animation: changeImage 10s infinite;
+  z-index: -1;
+}
+
+@keyframes changeImage {
+  0% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+      url("https://media.istockphoto.com/photos/clothes-picture-id854884996?k=6&m=854884996&s=170667a&w=0&h=kIqBBejPwcj9NPet-06y0_PEBBN4_nlDJ5dqTatT0Bk=");
+  }
+  25% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+      url("https://i.pinimg.com/originals/f5/d2/d0/f5d2d0cd5d89e0c2021b7621dca63258.png");
+  }
+  50% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+      url("https://wallpapercave.com/wp/wp8149661.jpg");
+  }
+  75% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+      url("https://wallpaperaccess.com/full/1272031.jpg");
+  }
+  100% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+      url("https://static.vecteezy.com/system/resources/previews/011/180/152/non_2x/shopping-cart-with-abstract-blur-supermarket-discount-store-aisle-and-pet-food-product-shelves-interior-defocused-background-photo.jpg");
+  }
+}

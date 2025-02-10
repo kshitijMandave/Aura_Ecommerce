@@ -1,0 +1,4 @@
+Electronics
+-----------
+api : "http://localhost:3000/electronics"
+method: GET
