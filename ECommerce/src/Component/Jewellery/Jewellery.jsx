@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import Carasole from "../Carasole/Carasole";
 import Crad from "../Card/Card";
-import "./Electronics.css";
-import { getElectronicsData } from "./Services/ElectronicsServices";
-function Electronics() {
-  const [electronics, setElectronics] = useState([]);
+import "./Jewellery.css";
+import { getJewelleryData } from "./Services/JwellariesServices";
+
+function Jewellery() {
+  const [jewellery, setJewellery] = useState([]);
 
   useEffect(() => {
-    getElectronicsData(setElectronics);
+    getJewelleryData(setJewellery);
   }, []);
 
   return (
@@ -21,13 +22,13 @@ function Electronics() {
         </div>
         <div className="priceSorting"></div>
       </div>
-      <div className="electronicsDataContainer">
-        {electronics.map((electronicData) => {
-          return <Crad data={electronicData} />;
+      <div className="jewelleryDataContainer">
+        {jewellery.map((jewelleryData) => {
+          return <Crad data={jewelleryData} />;
         })}
       </div>
     </div>
   );
 }
 
-export default Electronics;
+export default Jewellery;

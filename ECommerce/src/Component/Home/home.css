@@ -1,0 +1,48 @@
+.hero {
+  background-image: url(./img/model-img.jpg);
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  padding: 3rem;
+  background-position: 0 -60px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  align-content: center;
+}
+
+#aura-welcome-section {
+  padding: 30px;
+  text-align: center;
+  width: 500px;
+}
+
+#aura-welcome-section h2 {
+  font-size: 60px;
+  padding-bottom: 25px;
+}
+
+#aura-welcome-section p {
+  font-size: 20px;
+  padding-bottom: 25px;
+  font-weight: 500;
+}
+
+#aura-welcome-section button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0b2545;
+  border: 2px solid #0b2545;
+  color: white;
+  cursor: pointer;
+}
+#aura-welcome-section button:hover {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #0b2545;
+  color: #0b2545;
+  cursor: pointer;
+}
