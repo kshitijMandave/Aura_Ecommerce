@@ -1,0 +1,13 @@
+.productsDataContainer {
+  width: 98%;
+  /* height: 300px; */
+  /* border: 1px solid black; */
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.sorting {
+  width: 98%;
+}

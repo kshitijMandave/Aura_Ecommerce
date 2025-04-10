@@ -4,6 +4,7 @@ import Electronics from "./Component/Electronics/Electronics";
 import Home from "./Component/Home/Home";
 import Jewellery from "./Component/Jewellery/Jewellery";
 import Mens from "./Component/Mens/Mens";
+import Womens from "./Component/Womens/Womens";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Electronics />
       <Jewellery />
       <Mens />
+      <Womens />
     </>
   );
 }

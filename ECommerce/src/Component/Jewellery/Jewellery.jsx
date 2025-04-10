@@ -1,32 +1,10 @@
-import { useEffect, useState } from "react";
-import Carasole from "../Carasole/Carasole";
-import Crad from "../Card/Card";
+import Products from "../Products/Products";
 import "./Jewellery.css";
-import { getJewelleryData } from "./Services/JwellariesServices";
 
 function Jewellery() {
-  const [jewellery, setJewellery] = useState([]);
-
-  useEffect(() => {
-    getJewelleryData(setJewellery);
-  }, []);
-
   return (
-    <div>
-      <Carasole />
-      <div className="sorting">
-        <div className="rateSorting">
-          <select name="" id="">
-            <option value="">Under</option>
-          </select>
-        </div>
-        <div className="priceSorting"></div>
-      </div>
-      <div className="jewelleryDataContainer">
-        {jewellery.map((jewelleryData) => {
-          return <Crad data={jewelleryData} />;
-        })}
-      </div>
+    <div id="jewellery">
+      <Products url={"http://localhost:3000/jewelery"} />
     </div>
   );
 }

@@ -1,11 +1,11 @@
 import axios from "axios";
 
 // buissness logic in Client App
-export const getJewelleryData = (setJewellery) => {
+export const getProductsData = (setProducts, url) => {
   axios
-    .get("http://localhost:3000/jewelery")
+    .get(url)
     .then((res) => {
-      setJewellery(res.data);
+      setProducts(res.data);
     })
     .catch((error) => {
       alert("Error while getting the data");
