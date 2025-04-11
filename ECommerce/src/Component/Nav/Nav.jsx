@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Nav.css";
 import AuraLogo from "./img/Aura Logo.png";
 
@@ -5,37 +6,37 @@ function Nav() {
   return (
     <div className="navbar">
       <div className="logo">
-        <a href="">
+        <Link to="">
           <img src={AuraLogo} alt="" />
-        </a>
+        </Link>
         <p>Elevate Your Shopping Experience</p>
       </div>
       <div className="Links">
         <ul>
           <li>
-            <a href="">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="">Electronics</a>
+            <Link to="/Electronics">Electronics</Link>
           </li>
           <li>
-            <a href="">Jewellery</a>
+            <Link to="/Jewellery">Jewellery</Link>
           </li>
           <li>
-            <a href="">Mens</a>
+            <Link to="/Mens">Mens</Link>
           </li>
           <li>
-            <a href="">Womens</a>
+            <Link to="/Womens">Womens</Link>
           </li>
         </ul>
       </div>
       <div className="btns">
         <ul>
           <li>
-            <i class="fa-solid fa-heart"></i>
+            <i className="fa-solid fa-heart"></i>
           </li>
           <li>
-            <i class="fa-solid fa-bag-shopping"></i>
+            <i className="fa-solid fa-bag-shopping"></i>
           </li>
           <li>
             <button>Login</button>

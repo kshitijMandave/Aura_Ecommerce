@@ -1,0 +1,85 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eaf4f4;
+  }
+  
+  .container {
+    background-color: white;
+    width: 375px;
+    height: 500px;
+    align-content: center;
+    border-radius: 5px;
+  }
+  
+  .container .brand-logo {
+    height: 20%;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .container .brand-logo p {
+    font-size: 15px;
+  }
+  
+  .container .brand-logo .logo img {
+    width: 200px;
+  }
+  
+  .container .login-with {
+    text-align: center;
+    align-content: center;
+    height: 20%;
+  }
+  
+  .container .login-with p {
+    font-size: 12px;
+  }
+  
+  .container .login-with .img-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .container .login-with .img-wrapper div {
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .container .login-with .img-wrapper div img {
+    width: 40px;
+  }
+  
+  .container .login-input {
+    height: 40%;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .container .login-input div input {
+    margin-top: 10px;
+    padding: 8px 0 8px 8px;
+    width: 90%;
+  }
+  
+  .container .login-input div button {
+    padding: 9px 0;
+    margin: 10px 0;
+    border-radius
+  

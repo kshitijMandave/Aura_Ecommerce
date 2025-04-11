@@ -1,7 +1,6 @@
 .productsDataContainer {
   width: 98%;
-  /* height: 300px; */
-  /* border: 1px solid black; */
+  min-height: 60vh; /* Prevents layout jump */
   margin: 10px auto;
   display: flex;
   flex-wrap: wrap;
@@ -10,4 +9,13 @@
 
 .sorting {
   width: 98%;
+  margin: 10px auto;
+}
+
+.loading-text {
+  font-size: 20px;
+  color: #0b2545;
+  text-align: center;
+  width: 100%;
+  padding: 40px 0;
 }

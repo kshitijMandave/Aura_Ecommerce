@@ -2,7 +2,8 @@
   background-image: url(./img/model-img.jpg);
   background-size: cover;
   height: 90vh;
-  width: 195.5vh;
+  width: 100vw;
+  max-width: 195.5vh; /* Keeps your design intent */
   padding: 3rem;
   background-position: 0 -60px;
   display: flex;
@@ -37,6 +38,7 @@
   color: white;
   cursor: pointer;
 }
+
 #aura-welcome-section button:hover {
   padding: 12px 22px;
   border: none;
