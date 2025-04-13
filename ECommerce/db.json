@@ -313,6 +313,54 @@
                 "rate": 2.2,
                 "count": 140
             }
+        },
+        {
+            "id": "15",
+            "title": "Logitech MX Master 3 Advanced Wireless Mouse",
+            "price": 99.99,
+            "description": "Advanced ergonomic design with ultra-fast scrolling, app-specific customization, and 4000 DPI sensor. Works on any surface including glass.",
+            "category": "electronics",
+            "image": "https://www.bigw.com.au/medias/sys_master/images/images/hb4/h29/27176197226526.jpg",
+            "rating": {
+                "rate": 4.7,
+                "count": 570
+            }
+        },
+        {
+            "id": "16",
+            "title": "Anker PowerCore 20100mAh Portable Charger",
+            "price": 49.95,
+            "description": "High-capacity portable power bank with PowerIQ and VoltageBoost for optimized charging. Charges iPhone 8 almost seven times and Galaxy S8 five times.",
+            "category": "electronics",
+            "image": "https://i5.walmartimages.com/asr/7a168fbc-0437-4cf5-99a5-aa18e9dea2bb_1.0f3f53ee9c7ab06ab1b59ef4cff83ffd.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff",
+            "rating": {
+                "rate": 4.6,
+                "count": 880
+            }
+        },
+        {
+            "id": "17",
+            "title": "TP-Link AC1750 Smart WiFi Router (Archer A7)",
+            "price": 56.99,
+            "description": "Dual band router with high-speed internet, parental controls, and compatibility with Alexa for voice control. Ideal for 4K streaming and gaming.",
+            "category": "electronics",
+            "image": "https://images.monoprice.com/productlargeimages/239141.jpg",
+            "rating": {
+                "rate": 4.5,
+                "count": 1200
+            }
+        },
+        {
+            "id": "18",
+            "title": "Canon EOS Rebel T7 DSLR Camera with 18-55mm Lens",
+            "price": 479.99,
+            "description": "High-quality entry-level DSLR camera with 24.1 MP sensor, built-in Wi-Fi, and Full HD video recording. Ideal for beginners and hobbyists.",
+            "category": "electronics",
+            "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323758ld.jpg",
+            "rating": {
+                "rate": 4.4,
+                "count": 350
+            }
         }
     ],
     "jewelery": [
@@ -363,6 +411,76 @@
                 "rate": 1.9,
                 "count": 100
             }
+        },{
+            "id": "9",
+            "title": "Vintage Pearl Drop Earrings",
+            "price": 29.99,
+            "description": "Elegant pearl earrings in vintage design with gold plating. Perfect for formal occasions, weddings, or as a timeless gift.",
+            "category": "jewelery",
+            "image": "https://i.etsystatic.com/12045832/r/il/aa5226/2037655739/il_fullxfull.2037655739_o3d6.jpg",
+            "rating": {
+                "rate": 4.4,
+                "count": 120
+            }
+        },
+        {
+            "id": "10",
+            "title": "Crystal Studded Bangles Set",
+            "price": 45.5,
+            "description": "A set of 6 golden bangles studded with high-quality crystals. Adds sparkle to your party and ethnic outfits.",
+            "category": "jewelery",
+            "image": "https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/24217056/2023/7/27/fa3bf857-8496-4e25-abd7-c6148631fc401690435575330Gold-PlatedCrystalstuddedClassicBanglesJewellerySetSetOf161.jpg",
+            "rating": {
+                "rate": 4.1,
+                "count": 85
+            }
+        },
+        {
+            "id": "11",
+            "title": "Sterling Silver Heart Pendant",
+            "price": 35,
+            "description": "A delicate heart-shaped pendant made from 925 sterling silver. Comes with an adjustable silver chain.",
+            "category": "jewelery",
+            "image": "https://i.etsystatic.com/9242880/r/il/b919c3/1781882200/il_794xN.1781882200_6z0e.jpg",
+            "rating": {
+                "rate": 4.7,
+                "count": 260
+            }
+        },
+        {
+            "id": "12",
+            "title": "Boho Beaded Charm Bracelet",
+            "price": 15.25,
+            "description": "Handcrafted boho-style bracelet with multicolor beads and symbolic charms. Stylish and meaningful accessory.",
+            "category": "jewelery",
+            "image": "https://i.etsystatic.com/6443725/r/il/1018a6/1224899956/il_fullxfull.1224899956_d8fj.jpg",
+            "rating": {
+                "rate": 4.0,
+                "count": 150
+            }
+        },{
+            "id": "13",
+            "title": "Diamond Accent Infinity Necklace",
+            "price": 59.99,
+            "description": "A beautiful infinity pendant with diamond accents, symbolizing endless love and connection. Includes a sterling silver chain.",
+            "category": "jewelery",
+            "image": "https://th.bing.com/th/id/OIP.IbQHkDsP3FrxiQjaEipnTwHaHa?rs=1&pid=ImgDetMain",
+            "rating": {
+                "rate": 4.5,
+                "count": 310
+            }
+        },
+        {
+            "id": "14",
+            "title": "Adjustable Birthstone Ring",
+            "price": 22.49,
+            "description": "Customizable ring with your choice of birthstone. Adjustable band for a perfect fit and timeless elegance.",
+            "category": "jewelery",
+            "image": "https://www.borsheims.com/mm5/graphics/00000001/3AMER0777.jpg",
+            "rating": {
+                "rate": 4.3,
+                "count": 190
+            }
         }
     ],
     "mensclothing": [
@@ -412,6 +530,78 @@
             "rating": {
                 "rate": 2.1,
                 "count": 430
+            }
+        },
+        {
+            "id": "19",
+            "title": "Men's Premium Wool Blend Peacoat",
+            "price": 129.99,
+            "description": "A timeless classic made from a luxurious wool blend, featuring a double-breasted front, notch lapels, and a tailored fit. Perfect for formal and semi-formal winter outings.",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/sample-wool-peacoat.jpg",
+            "rating": {
+                "rate": 4.6,
+                "count": 310
+            }
+        },
+        {
+            "id": "20",
+            "title": "Men's Athletic Fit Performance Stretch Chinos",
+            "price": 54.50,
+            "description": "Smart yet casual chinos with a slim athletic fit, crafted with breathable performance stretch fabric. Ideal for daily wear, work, or casual outings.",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/sample-athletic-chinos.jpg",
+            "rating": {
+                "rate": 4.3,
+                "count": 180
+            }
+        },
+        {
+            "id": "21",
+            "title": "Classic Fit Button-Down Oxford Shirt",
+            "price": 38.99,
+            "description": "This timeless oxford shirt is made from 100% breathable cotton with a clean button-down collar. Versatile enough for both business casual and weekend wear.",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/sample-oxford-shirt.jpg",
+            "rating": {
+                "rate": 4.4,
+                "count": 420
+            }
+        },
+        {
+            "id": "22",
+            "title": "Men's Heavyweight Sherpa-Lined Hoodie",
+            "price": 62.00,
+            "description": "Stay warm and cozy with this rugged sherpa-lined hoodie. Designed with durable outer fabric, zip front, and deep pockets—perfect for colder weather.",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/sample-sherpa-hoodie.jpg",
+            "rating": {
+                "rate": 4.8,
+                "count": 515
+            }
+        },
+        {
+            "id": "23",
+            "title": "Men's Classic Leather Belt - Genuine Cowhide",
+            "price": 32.75,
+            "description": "Elegant and durable leather belt crafted from genuine cowhide. Features a sturdy buckle and stylish finish that works well for both casual and formal attire.",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/sample-leather-belt.jpg",
+            "rating": {
+                "rate": 4.5,
+                "count": 330
+            }
+        },
+        {
+            "id": "24",
+            "title": "Men's Moisture-Wicking Performance Polo",
+            "price": 27.95,
+            "description": "Built for performance and style, this moisture-wicking polo shirt keeps you cool and dry. Lightweight, breathable fabric makes it great for work, golf, or casual wear.",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/sample-performance-polo.jpg",
+            "rating": {
+                "rate": 4.2,
+                "count": 280
             }
         }
     ],
