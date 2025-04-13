@@ -1,0 +1,25 @@
+.Details {
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  width: 800px;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+}
+
+.leftDiv {
+  width: 30%;
+  height: 80%;
+
+  /* border: 1px solid black; */
+  background-color: #c0d3e5;
+  margin-right: 10px;
+}
+
+.rightDiv {
+  width: 70%;
+  height: 100%;
+  /* border: 1px solid black; */
+  background-color: white;
+}
