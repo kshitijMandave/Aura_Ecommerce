@@ -538,7 +538,7 @@
             "price": 129.99,
             "description": "A timeless classic made from a luxurious wool blend, featuring a double-breasted front, notch lapels, and a tailored fit. Perfect for formal and semi-formal winter outings.",
             "category": "men's clothing",
-            "image": "https://fakestoreapi.com/img/sample-wool-peacoat.jpg",
+            "image": "https://m.media-amazon.com/images/I/81rBS42ZhCL._AC_UL1500_.jpg",
             "rating": {
                 "rate": 4.6,
                 "count": 310
@@ -550,7 +550,7 @@
             "price": 54.50,
             "description": "Smart yet casual chinos with a slim athletic fit, crafted with breathable performance stretch fabric. Ideal for daily wear, work, or casual outings.",
             "category": "men's clothing",
-            "image": "https://fakestoreapi.com/img/sample-athletic-chinos.jpg",
+            "image": "https://cdnd.lystit.com/photos/nordstrom/dc3c405f/bonobos-designer-Baja-Dunes-Athletic-Fit-Stretch-Washed-Chinos.jpeg",
             "rating": {
                 "rate": 4.3,
                 "count": 180
@@ -562,7 +562,7 @@
             "price": 38.99,
             "description": "This timeless oxford shirt is made from 100% breathable cotton with a clean button-down collar. Versatile enough for both business casual and weekend wear.",
             "category": "men's clothing",
-            "image": "https://fakestoreapi.com/img/sample-oxford-shirt.jpg",
+            "image": "https://cdnb.lystit.com/photos/fd8d-2015/04/17/ralph-lauren-bluewhite-gingham-checked-oxford-button-down-shirt-classic-fit-blue-product-0-283963873-normal.jpeg",
             "rating": {
                 "rate": 4.4,
                 "count": 420
@@ -574,7 +574,7 @@
             "price": 62.00,
             "description": "Stay warm and cozy with this rugged sherpa-lined hoodie. Designed with durable outer fabric, zip front, and deep pockets—perfect for colder weather.",
             "category": "men's clothing",
-            "image": "https://fakestoreapi.com/img/sample-sherpa-hoodie.jpg",
+            "image": "https://i5.walmartimages.com/asr/6ad0c173-7ab8-4882-8008-e47c125365a6_1.13885b88b66512a3e2ca8afdcd921722.jpeg",
             "rating": {
                 "rate": 4.8,
                 "count": 515
@@ -586,7 +586,7 @@
             "price": 32.75,
             "description": "Elegant and durable leather belt crafted from genuine cowhide. Features a sturdy buckle and stylish finish that works well for both casual and formal attire.",
             "category": "men's clothing",
-            "image": "https://fakestoreapi.com/img/sample-leather-belt.jpg",
+            "image": "https://th.bing.com/th/id/OIP.e1UfaXJ5ZoYsYraB1CZsAwHaHa?rs=1&pid=ImgDetMain",
             "rating": {
                 "rate": 4.5,
                 "count": 330
@@ -598,7 +598,7 @@
             "price": 27.95,
             "description": "Built for performance and style, this moisture-wicking polo shirt keeps you cool and dry. Lightweight, breathable fabric makes it great for work, golf, or casual wear.",
             "category": "men's clothing",
-            "image": "https://fakestoreapi.com/img/sample-performance-polo.jpg",
+            "image": "https://m.media-amazon.com/images/I/71YrZIPhKTL.jpg",
             "rating": {
                 "rate": 4.2,
                 "count": 280
@@ -676,6 +676,54 @@
             "rating": {
                 "rate": 3.6,
                 "count": 145
+            }
+        },
+        {
+            "id": "21",
+            "title": "Women's Elegant Long Sleeve Maxi Dress",
+            "price": 44.90,
+            "description": "Made from high-quality chiffon with a soft lining, this elegant maxi dress features a flattering A-line silhouette, long sleeves, and a waist tie belt. Perfect for weddings, parties, or evening wear.",
+            "category": "women's clothing",
+            "image": "https://gloimg.rglcdn.com/rosegal/pdm-product-pic/Clothing/2016/11/17/source-img/20161117191555_37691.jpg",
+            "rating": {
+                "rate": 4.8,
+                "count": 387
+            }
+        },
+        {
+            "id": "22",
+            "title": "Women's High-Waist Yoga Leggings with Pockets",
+            "price": 28.50,
+            "description": "Comfort meets performance in these squat-proof yoga leggings, made from buttery-soft, moisture-wicking fabric. Designed with tummy control and deep side pockets for your essentials.",
+            "category": "women's clothing",
+            "image": "https://i.pinimg.com/originals/2d/f4/35/2df4358a7e2197402c46b0fd8c018ca9.jpg",
+            "rating": {
+                "rate": 4.6,
+                "count": 510
+            }
+        },
+        {
+            "id": "23",
+            "title": "Women's Oversized Chunky Knit Sweater",
+            "price": 35.25,
+            "description": "Stay cozy in this oversized chunky knit sweater, crafted from a soft acrylic blend. Features drop shoulders, balloon sleeves, and a relaxed fit — ideal for layering in fall or winter.",
+            "category": "women's clothing",
+            "image": "https://www.lulus.com/images/product/xlarge/3427160_709462.jpg?w=560",
+            "rating": {
+                "rate": 4.3,
+                "count": 290
+            }
+        },
+        {
+            "id": "24",
+            "title": "Boho Floral Print Summer Wrap Dress",
+            "price": 31.70,
+            "description": "Lightweight and breezy, this V-neck wrap dress with floral prints offers a flattering fit with flutter sleeves and a tie waist. Ideal for beach days, brunches, or vacations.",
+            "category": "women's clothing",
+            "image": "https://th.bing.com/th/id/OIP.FCBLsWCku_9MHwScZfMGGwHaGj?rs=1&pid=ImgDetMain",
+            "rating": {
+                "rate": 4.5,
+                "count": 412
             }
         }
     ]
