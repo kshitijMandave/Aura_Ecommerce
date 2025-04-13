@@ -1,8 +1,8 @@
 .hero {
   background-image: url(./img/model-img.jpg);
   background-size: cover;
-  height: 90vh;
-  width: 100vw;
+  height: 70vh;
+  /* width: 100vw; */
   max-width: 195.5vh; /* Keeps your design intent */
   padding: 3rem;
   background-position: 0 -60px;

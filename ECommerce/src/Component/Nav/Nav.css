@@ -9,6 +9,9 @@
   background-color: #8da9c4;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .logo {
