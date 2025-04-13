@@ -1,24 +1,26 @@
 import React from "react";
-import "./LogIn.css"; // make sure this file exists and is correctly styled
-import shoppingGirl from "./img/shopping-girl.jpg"; // adjust path if needed
+import "./LogIn.css";
 
-const Login = () => {
+function Login() {
   const goToSignUpPage = () => {
-    // Replace with actual navigation logic
-    console.log("Redirecting to sign-up page...");
+    // You can use React Router navigation here (if using react-router-dom)
+    console.log("Redirect to signup page...");
   };
 
   return (
     <section className="login">
       <div className="container">
         <div className="img-holder">
-          <img src={shoppingGirl} alt="Shopping girl" />
+          <img src="./img/shopping-girl.jpg" alt="shopping-girl" />
         </div>
-        <div>
+
+        <div className="form-section">
           <h3>Log In to the, Aura!</h3>
-          <input type="tel" placeholder="+91  |  Mobile Number" />
+
+          <input type="tel" placeholder="+91 | Mobile Number" />
+
           <p>
-            by continuing, I agree to the{" "}
+            By continuing, I agree to the{" "}
             <span>
               <b>Terms of Use</b>
             </span>{" "}
@@ -27,17 +29,15 @@ const Login = () => {
               <b>Privacy Policy</b>
             </span>
           </p>
-        </div>
-        <div>
-          <button className="continue-btn">continue</button>
+
+          <button className="continue-btn">Continue</button>
           <p>Or</p>
-        </div>
-        <div>
+
           <button className="sign-up-btn" onClick={goToSignUpPage}>
             Sign Up
           </button>
           <p>
-            have trouble logging in?{" "}
+            Having trouble logging in?{" "}
             <span>
               <b>Get help</b>
             </span>
@@ -46,6 +46,6 @@ const Login = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Login;

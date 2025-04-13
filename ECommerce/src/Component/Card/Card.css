@@ -54,3 +54,9 @@
   background-color: #0b2545;
   color: white;
 }
+
+.stars {
+  color: #f5c518; /* Golden stars */
+  font-size: 1.2rem;
+  margin-top: 5px;
+}

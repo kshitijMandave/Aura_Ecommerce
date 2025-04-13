@@ -28,6 +28,9 @@ function Nav() {
           <li>
             <Link to="/Womens">Womens</Link>
           </li>
+          <li>
+            <Link to="/Profile">Profile</Link>
+          </li>
         </ul>
       </div>
       <div className="btns">
