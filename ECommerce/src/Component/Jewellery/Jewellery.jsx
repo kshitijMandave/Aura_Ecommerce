@@ -4,7 +4,7 @@ import "./Jewellery.css";
 function Jewellery() {
   return (
     <div id="jewellery">
-      <Products url={"http://localhost:3000/jewelery"} />
+      <Products url={"http://localhost:3001/jewelery"} />
     </div>
   );
 }

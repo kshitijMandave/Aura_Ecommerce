@@ -23,7 +23,7 @@ function Crad({ data }) {
   return (
     <div className="card">
       <div className="imgWrapper">
-        <img src={image} alt="product-img" width="100%" height="100%" />
+        <img src={image} alt="product-img" width={"100%"} height={"100%"} />
       </div>
 
       <div className="contentwrapper">

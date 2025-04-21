@@ -3,7 +3,7 @@ import "./Electronics.css";
 function Electronics() {
   return (
     <div id="electronics">
-      <Products url={"http://localhost:3000/electronics"} />
+      <Products url={"http://localhost:3001/electronics"} />
     </div>
   );
 }
