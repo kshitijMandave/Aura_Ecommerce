@@ -1,6 +1,6 @@
 [build]
-  base = "ecommerce"  # Set the base directory for the React app
-  publish = "ecommerce/dist"  # Vite build directory
+  base = "Ecommerce"  # Set the base directory for the React app
+  publish = "Ecommerce/dist"  # Vite build directory
   command = "npm run build"  # Build command
 
 [context.production.environment]
