@@ -16,7 +16,7 @@ function ProductDetails() {
   let { id } = useParams();
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/products/${id}`)
+      .get(`http://localhost:3001/products/${id}`)
       .then((res) => {
         console.log(res.data);
         setProducts(res.data);

@@ -15,14 +15,14 @@ function Products({ url }) {
     <div>
       <Carasole />
 
-      <div className="sorting">
+      {/* <div className="sorting">
         <div className="rateSorting">
           <select name="" id="">
             <option value="">Under</option>
           </select>
         </div>
         <div className="priceSorting"></div>
-      </div>
+      </div> */}
 
       <div className="productsDataContainer">
         {products.length === 0 ? (
